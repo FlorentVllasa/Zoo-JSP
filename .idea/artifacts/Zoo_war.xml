@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Zoo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Zoo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="6-JavaServerPages.war">
+      <element id="artifact" artifact-name="Zoo:war exploded" />
+    </root>
+  </artifact>
+</component>
